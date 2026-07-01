@@ -1,0 +1,132 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+  <title>Football Store</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background: #111;
+      align-items: center;
+    }
+
+    h1 {
+      color: lime;
+      margin: 0;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px;
+      background: linear-gradient(45deg, #0f0, #111);
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    button {
+      background: green;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: darkgreen;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: Football;
+    }
+
+    .cart {
+      background: #222;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>⚽ Football Store</h1>
+  </nav>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html">zeeshu</a>
+</nav>
+</header>
+</header>
+
+<section class="hero">
+  <h2>Play Like A Champion</h2>
+  <p>Best Football Shoes & Jerseys</p>
+</section>
+
+<section class="products">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26">
+    <h3>Nike Boots</h3>
+    <p>$125</p>
+    <button onclick="add()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d">
+    <h3>Adidas Jersey</h3>
+    <p>$80</p>
+    <button onclick="add()">Add to Cart</button>
+  </div>
+
+</section>
+
+<script>
+<a href="https://wa.me/923001234567" target="_blank">
+  💬 zeeshu
+</a>  let count = 0;
+
+  function add() {
+    count++;
+    document.getElementById("count").innerText = count;
+  }
+</script>
+
+</body>
+</html<a href="shop.html">Shop</a>
